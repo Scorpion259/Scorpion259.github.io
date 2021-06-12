@@ -1,0 +1,134 @@
+html {
+    background-image: url(https://ilyakhasanov.ru/images/background/80.png);
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    padding: 1px 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Biography {
+    background-image: url(https://kartinkinaden.ru/uploads/posts/2020-11/1606688887_50-p-krasivii-nezhnii-odnotonnii-fon-58.jpg);
+    width: auto;
+    height: 250px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.Nolan_photo {
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.Biography_text {
+    float: right;
+    margin-left: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Director_works {
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: auto;
+}
+
+.Films_list {
+    background-image: url(https://kartinkinaden.ru/uploads/posts/2020-11/1606688887_50-p-krasivii-nezhnii-odnotonnii-fon-58.jpg);
+}
+
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+
+    font-size: 20px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 400;
+
+    color: #1511fc;
+    text-decoration: none;
+
+    transition: color .1s linear;
+}
+
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: #9100bd;
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav_link:hover{
+    color: #9100bd;
+}
+
+.nav_link:hover:after{
+    display: block;
+    opacity: 1;
+}
+
+.Film_content {
+    background-image: url(https://kartinkinaden.ru/uploads/posts/2020-11/1606688887_50-p-krasivii-nezhnii-odnotonnii-fon-58.jpg);
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.Film_img {
+    float: left;
+}
+
+.Film_text {
+    float: right;
+    margin-left: 50px;
+    margin-right: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Rating_Quay {
+    margin: auto;
+}
+
+.Rating {
+    width: auto;
+    display: inline-flex;
+}
+
+.RottenTomatoes {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.Imdb {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.Metacritic {
+    text-align: center;
+}
+
+.Metacritic_Img {
+    display: inline-flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
