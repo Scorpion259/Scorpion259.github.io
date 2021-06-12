@@ -1,5 +1,5 @@
 html {
-    background-image: url(https://ilyakhasanov.ru/images/background/80.png);
+    background-image: url("../Screens/Site_background.png");
     display: flex;
 }
 
@@ -13,7 +13,7 @@ html {
 }
 
 .Biography {
-    background-image: url(https://kartinkinaden.ru/uploads/posts/2020-11/1606688887_50-p-krasivii-nezhnii-odnotonnii-fon-58.jpg);
+    background-image: url("../Screens/Text_background.jpg");
     width: auto;
     height: 250px;
     margin-bottom: 50px;
@@ -44,7 +44,7 @@ html {
 }
 
 .Films_list {
-    background-image: url(https://kartinkinaden.ru/uploads/posts/2020-11/1606688887_50-p-krasivii-nezhnii-odnotonnii-fon-58.jpg);
+    background-image: url("../Screens/Text_background.jpg");
 }
 
 .nav_link{
@@ -87,7 +87,7 @@ html {
 }
 
 .Film_content {
-    background-image: url(https://kartinkinaden.ru/uploads/posts/2020-11/1606688887_50-p-krasivii-nezhnii-odnotonnii-fon-58.jpg);
+    background-image: url("../Screens/Text_background.jpg");
     width: 100%;
     height: 350px;
     display: flex;
